@@ -10,7 +10,7 @@ env/
 # We ignore the heavy brain files; users should run train.py to generate them
 *.joblib
 *.h5
-
+*.lib
 
 # --- Streamlit ---
 .streamlit/
@@ -18,6 +18,3 @@ static/
 
 # --- IDE & OS ---
 .vscode/
-.idea/
-.DS_Store
-Thumbs.db
